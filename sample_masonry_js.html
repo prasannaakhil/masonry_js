@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="layout_masonry.css">
+	
+</head>
+<body>
+
+
+  <section>
+    <div class="grid"></div>
+      <div class="grid-item">1</div>
+  <div class="grid-item grid-item--width2 grid-item--height2">2</div>
+  <div class="grid-item grid-item--height3">3</div>
+  <div class="grid-item grid-item--height2">4</div>
+  <div class="grid-item grid-item--width3">5</div>
+  <div class="grid-item">6</div>
+  <div class="grid-item">7</div>
+  <div class="grid-item grid-item--height2">8</div>
+  <div class="grid-item grid-item--width2 grid-item--height3">9</div>
+  <div class="grid-item">10</div>
+  <div class="grid-item grid-item--height2">11</div>
+  <div class="grid-item">12</div>
+  <div class="grid-item grid-item--width2 grid-item--height2">13</div>
+  <div class="grid-item grid-item--width2">14</div>
+  <div class="grid-item">15</div>
+  <div class="grid-item grid-item--height2">16</div>
+  <div class="grid-item">17</div>
+  <div class="grid-item">18</div>
+  <div class="grid-item grid-item--height3">19</div>
+  <div class="grid-item grid-item--height2">20</div>
+  <div class="grid-item">21</div>
+  <div class="grid-item">22</div>
+  <div class="grid-item grid-item--height2">23</div>
+    </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	
+<script type="text/javascript" href="layout_masonry.js"></script>
+  <script src="https://masonry.desandro.com/masonry.pkgd.js"></script>
+  <script type="text/javascript" src="https://masonry.desandro.com/masonry.pkgd.js"></script>
+  <script type="text/javascript">
+    
+$('.grid').masonry({
+  itemSelector: '.grid-item',
+  columnWidth: 160
+});
+  </script>
+
+
+</body>
+</html>
+
+
+
